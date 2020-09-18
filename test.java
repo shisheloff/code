@@ -12,7 +12,7 @@ public class test {
         final complNum firstNum = new complNum(re1, im1);
         final complNum secondNum = new complNum(re2, im2);
         final complNum res = new complNum(0.0, 0.0);
-        System.out.println("What you want to calculate? (sum,substruct,multiply,div,module,arg)");
+        System.out.println("What you want to calculate? Choose one of this:sum,substruct,multiply,div,module,arg.");
         switch(sc.toString()){
             case ("sum"): 
                 complNum s = res.sum(firstNum, secondNum);
