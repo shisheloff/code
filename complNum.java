@@ -1,3 +1,4 @@
+//import java.lang.Math;
 public class complNum {
     double re;
     double im;
@@ -32,4 +33,15 @@ public class complNum {
         res.im = (f1.re*f2.im + f1.im*f2.re)/znam;
         return res;
     }
+    public complNum module(complNum f){
+     f.re = Math.sqrt(f.re*f.re+f.im+f.im);
+     f.im = 0;
+        return f;
+    }
+    public complNum argum(complNum f){
+        f.re = Math.atan2(f.im, f.re);
+        f.im = 0;
+        return f;
+    }
+
 }
