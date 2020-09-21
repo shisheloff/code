@@ -1,8 +1,10 @@
-//import java.lang.Math;
 public class complNum {
     double re;
     double im;
 
+    complNum(){
+    
+    }
     complNum(Double r, Double i) {
         this.im = i;
         this.re = r;
@@ -39,7 +41,7 @@ public class complNum {
         return f;
     }
     public complNum argum(complNum f){
-        f.re = Math.atan2(f.im, f.re);
+        f.re = Math.atan(f.im/f.re);
         f.im = 0;
         return f;
     }
