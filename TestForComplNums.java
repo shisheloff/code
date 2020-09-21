@@ -12,7 +12,7 @@ public class TestForComplNums {
         final complNum firstNum = new complNum(re1, im1);
         final complNum secondNum = new complNum(re2, im2);
         final complNum res = new complNum(0.0, 0.0);
-         System.out.println("What you want to calculate? Choose one of this:sum(1),substruct(2),multiply(3),div(4),module(5),arg(6).");
+        System.out.println("What you want to calculate? Choose one of this:sum(1),substruct(2),multiply(3),div(4),module(5),arg(6).");
         int choice = sc.nextInt();
         switch(choice){
             case 1: 
