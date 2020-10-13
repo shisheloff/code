@@ -75,19 +75,16 @@ public class LinkedList {
     }
 
     void deleteByValue(int value){
-        // Store head node
+
         Node temp = head, prev = null;
- 
-        // If head node itself holds the value to be deleted
+
         if (temp != null && temp.value == value)
         {
-            head = temp.next; // Changed head
+            head = temp.next; 
             counter--;
             return;
         }
  
-        // Search for the value to be deleted, keep track of the
-        // previous node as we need to change temp.next
         while (temp != null && temp.value != value)
         {
             prev = temp;
@@ -95,12 +92,8 @@ public class LinkedList {
             counter--;
         }    
         
-        // If value was not present in linked list
         if (temp == null) return;
- 
-        // Unlink the node from linked list
-        prev.next = temp.next;
-    
+        prev.next = temp.next;  
 }
 
     public void deleteLinkedList() {
