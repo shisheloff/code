@@ -21,8 +21,8 @@ public class test {
         list.counter(list);
         clone.counter(clone);
         clone.printList(clone);
-       list.deleteLinkedList();
-       list.printList(list);
+        list.deleteLinkedList();
+        list.printList(list);
 
     }
 }
