@@ -1,28 +1,21 @@
-package secondLab;
-
+package Structures.ThirdLab;
 public class test {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        list.addToHead(list, 5);
-        list.addToTail(list, 3);
-        list.addToTail(list, 7);
-        list.addToHead(list, 10);
-        list.addToHead(list, 2);
-        list.printList(list);
-        LinkedList clone = new LinkedList(list);
-        clone.printList(clone);
-        list.deleteByValue(2);
-        list.printList(list);
-        list.deleteByValue(10);
-        clone.printList(clone);
-        list.deleteByValue(5); 
-        list.printList(list);
-        clone.printList(clone);
-        list.counter(list);
-        clone.counter(clone);
-        clone.printList(clone);
-        list.deleteLinkedList();
-        list.printList(list);
+        /*myvector v = new myvector(5);
+        cat firstCat = new cat("Mur", 10);
+        cat secCat = new cat("Myau", 3);
+        cat thirdCat = new cat("Divuar", 15);
+        System.out.println(v.capacity());
 
+        v.addToEnd(firstCat);
+        v.addToEnd(secCat);
+        v.addToEnd(thirdCat);
+        v.addToEnd(15);
+        System.out.println(v.len());
+        v.print();
+        v.remove(secCat);
+        v.remove(15);
+        v.print();*/
     }
+    
 }
