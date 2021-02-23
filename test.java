@@ -1,7 +1,7 @@
 package Structures.ThirdLab;
 public class test {
     public static void main(String[] args) {
-        /*myvector v = new myvector(5);
+        myvector v = new myvector(5);
         cat firstCat = new cat("Mur", 10);
         cat secCat = new cat("Myau", 3);
         cat thirdCat = new cat("Divuar", 15);
@@ -15,7 +15,7 @@ public class test {
         v.print();
         v.remove(secCat);
         v.remove(15);
-        v.print();*/
+        v.print();
     }
     
 }
